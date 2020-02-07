@@ -4,7 +4,7 @@ public class exercicio01 {
 		Scanner leitor = new Scanner (System.in);
 		System.out.println("quantos alunos há na sala?");
 		int numAlunos = Integer.parseInt(leitor.nextLine());
-		double maiorNota = 0;
+		double maiorNota = -1;
 		String nomeMaior = "";
 		for (int k = 0 ; k < numAlunos ; k++) {
 			System.out.println("digite o nome,nota e matricula do aluno "+(k+1)+":");
